@@ -1,0 +1,259 @@
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+
+%---------- FONT OPTIONS ----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeEducationHeading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+
+
+%---------- HEADING ----------
+
+\begin{center}
+    \textbf{\Huge \scshape Visinigiri Jayant} \\ \vspace{3pt}
+    \small
+    \faMobile \hspace{.5pt} {9508309972}
+    $|$
+    \faAt \hspace{.5pt} \href{mailto:visinigirijayant@gmail.com}{visinigirijayant@gmail.com}
+    $|$
+    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/visinigiri-jayant/}{LinkedIn}
+    $|$
+    \faGithub \hspace{.5pt} \href{https://github.com/Jayantrao001}{Github}
+    $|$
+    
+\end{center}
+
+
+
+%----------- EDUCATION -----------
+
+\section{Education}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+
+  
+\resumeSubheading
+{Vellore Institute of Technology (VIT)
+}{Vellore}
+{B.Tech.  in Electronics & Communication Engineering;   \textbf{CGPA: 8.55}}{Sept. 2021 \textbf{--} Jul. 2025}
+
+\resumeSubheading
+{Kerala Samajam Model School
+}{Jamshedpur}
+{ISC in PCM;   \textbf{CGPA: 77.25\%}}{Mar. 2020 \textbf{--} Jul. 2021}
+
+
+  \resumeSubHeadingListEnd
+
+
+%----------- EXPERIENCE -----------
+
+\section{Experience}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+
+  
+\resumeSubheading
+      {KPIT Technologies Ltd.}{Pune}
+      {Associate Engineer}{Jan. 2025 \textbf{--} Present}
+      \resumeItemListStart
+      \resumeItem{Develop embedded software components for automotive ECUs (Electronic Control Units).}\resumeItem{Work on technologies like AUTOSAR, Model-Based Development (MBD), and diagnostics (UDS, CAN).}\resumeItem{Perform software testing (unit, integration, and validation).}
+        \resumeItemListEnd
+
+\resumeSubheading
+      {Tata Steel}{Jamshedpur}
+      {Trainee}{Aug. 2023 \textbf{--} Sept. 2023}
+      \resumeItemListStart
+      \resumeItem{Conducted maintenance and troubleshooting of electrical and electronic systems.}\resumeItem{Diagnosed and repaired equipment issues to improve operational efficiency by 15\%.}\resumeItem{Gained hands-on experience in fieldwork and technical problem-solving in a manufacturing environment.}
+        \resumeItemListEnd
+
+
+  \resumeSubHeadingListEnd
+
+
+
+%----------- PROJECTS -----------
+
+\section{Projects}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+
+  
+\resumeProjectHeading
+{\textbf{IoT-Based Smart Fire Safety System | Simulation Project | Cisco Packet Tracer} $|$ \underline{\emph{\href{https://github.com/Jayantrao001/fire_safety_system}{GitHub}}} } {}
+      \resumeItemListStart
+      \resumeItem{Simulated an IoT-based fire safety system using Cisco Packet Tracer with integrated smoke detectors, sprinklers, sirens, and smart devices.}\resumeItem{Emphasized real-time monitoring and automated emergency response to improve residential fire safety.}\resumeItem{Optimized sensor placement and system configuration for enhanced responsiveness and efficiency.}
+        \resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Smart Plant Monitoring System | Smart Agriculture | ESP8266 NodeMCU} $|$ \underline{\emph{\href{https://github.com/Jayantrao001/smart-plant-monitoring-system}{GitHub}}} } {}
+      \resumeItemListStart
+      \resumeItem{Designed an IoT-based smart plant monitoring system using ESP8266 NodeMCU and environmental sensors.}\resumeItem{Integrated temperature, humidity, and soil moisture sensors to enable real-time plant health tracking.}\resumeItem{Automated irrigation through a relay-controlled pump with mobile and web dashboard controls for remote access.}
+        \resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{RISC-V Processor Component Design | Processor Architecture | Verilog HDL} $|$ \underline{\emph{\href{https://github.com/Jayantrao001/risc-v-component-design}{GitHub}}} } {}
+      \resumeItemListStart
+      \resumeItem{Contributed to the design and verification of RISC-V processor components using Verilog HDL.}\resumeItem{Focused on optimizing architecture-level functionality for efficient simulation and performance.}\resumeItem{Achieved a 20\% reduction in simulation time, enhancing overall system efficiency.}
+        \resumeItemListEnd
+
+
+  \resumeSubHeadingListEnd
+
+
+
+%----------- AWARDS & ACHIEVEMENTS -----------
+
+\section{Awards \& Achievements}
+  \vspace{2pt}
+  \resumeItemListStart
+  \resumeItem{Identified as a Top Coder, VIT University $|$ \underline{\emph{\href{Ranked among the top 2\% in competitive coding out of 12,000+ participants at VIT University. This achievement reflects a high level of proficiency in JAVA and algorithmic problem-solving skills.}{Link}}}}\resumeItem{Conference Paper Publication $|$ \underline{\emph{\href{Published a paper on Smart Plant Monitoring and IoT-Based Fire Safety systems, showcasing real-time IoT automation using ESP8266 and Cisco Packet Tracer.}{Link}}}}
+  \resumeItemListEnd
+
+
+%----------- SKILLS -----------
+
+\section{Skills}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+
+  
+    \textbf{Programming Languages:}{ Embedded C, JAVA, C/C++, SQL, Verilog, System Verilog} \ \vspace{3pt}
+
+    \textbf{Hardware Design:}{ Digital Circuits, Microcontroller, HDL (Verilog, VHDL)} \ \vspace{3pt}
+
+}}
+\resumeSubHeadingListEnd
+
+
+
+%----------- Profiles -----------
+
+\section{Profiles}
+  \vspace{2pt}
+  \resumeItemListStart
+  \resumeItem{\underline{\href{https://github.com/Jayantrao001/}{GitHub}}}
+  \resumeItemListEnd
+
+%-------------------------------------------
+\end{document}
